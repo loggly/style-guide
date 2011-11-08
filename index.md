@@ -31,12 +31,12 @@ For nested loops/iterations, you must name all variables as you would any other 
 
 ### Example of what not to do
 
-    This is hard to read:
+This is hard to read:
 
-        for i in foo:
-            for i1 in bar:
-                for i2 in baz:
-                    if i1 == i:
-                      print i2
+    for i in foo:
+        for i1 in bar:
+            for i2 in baz:
+                if i1 == i:
+                  print i2
 
-    Above: Surely these 3 'i' values have meaning. Give them names.
+Above: Surely these 3 'i' values have meaning. Give them names.
